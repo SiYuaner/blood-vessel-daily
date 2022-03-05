@@ -1,5 +1,7 @@
-# Joint Learning of Vessel Segmentation and Artery/Vein Classification with Post-processing 
-任务：视网膜血管分割 和 动静脉判别
+## Joint Learning of Vessel Segmentation and Artery/Vein Classification with Post-processing 
+**任务**：视网膜血管分割 和 动静脉判别
+
+**方法**：
 
 上文已经做了分割，且计算了每个像素的动静脉分类概率值。
 
@@ -22,5 +24,5 @@ L：连线和其中一个血管的相对方向、
 T：平均粗细相似度，越接近T越靠近1
 D：两个点的距离反比
 
-评价指标：
-	没有针对拓扑结构设计指标，只评价了分割结果和动静脉分类结果。
+**评价指标**：
+    没有针对拓扑结构设计指标，只评价了分割结果和动静脉分类结果。
