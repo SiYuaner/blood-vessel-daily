@@ -19,6 +19,7 @@
 
 基于这种观察，设置了如下的概率传播规则。
 ![avatar](./source/propagation.png)
+![](./source/propagation.png =100)
 
 其中A、L、T、D是四个参数，分别表示归一化的：  
 A：两血管相对方向  
