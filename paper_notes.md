@@ -58,5 +58,5 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 
 
 ## 3、13-TRANS An Automatic Graph-Based Approach for Artery/Vein Classification in Retinal Images 
-方法较简单，定义了多种错误类别。见笔记1.  
+方法较简单，定义了多种错误类别。见阅读笔记1.  
 **拓扑指标**：提到accuracy-centerline pixels，应该是中心线上的正确率，没有细说。
