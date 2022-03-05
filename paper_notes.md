@@ -47,11 +47,16 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 1、选择距离阈值L：几个分割指标 Sensitivity (Sen) and Accuracy (Acc)、time consumption (Time)   
 2、连接的评价指标：连接后的 1-precision（越小越好）。选择超参α也是通过这个指标。  
 3、ablation study中和CRW（conventional walk (CRW)）连接方法做比较。
-<img src="./source/2-3.png" width = "800" alt="连接评价指标ERR+超参选择" align=center />
-<img src="./source/2-4.png" width = "800" alt="超参选择+ablation study" align=center />
-<img src="./source/2-5.png" width = "300" alt="结果比较" align=center />
 
 **表达**：
 连通性：connectivity；
 血管碎片：fracture of the vessels；
 新生血管疾病：neovascular diseases；
+<img src="./source/2-3.png" width = "800" alt="连接评价指标ERR+超参选择" align=center />
+<img src="./source/2-4.png" width = "800" alt="超参选择+ablation study" align=center />
+<img src="./source/2-5.png" width = "300" alt="结果比较" align=center />
+
+
+## 3、13-TRANS An Automatic Graph-Based Approach for Artery/Vein Classification in Retinal Images 
+方法较简单，定义了多种错误类别。见笔记1.  
+**拓扑指标**：提到accuracy-centerline pixels，应该是中心线上的正确率，没有细说。
