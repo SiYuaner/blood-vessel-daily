@@ -27,3 +27,26 @@ D：两个点的距离反比
 
 **评价指标**：
     没有针对拓扑结构设计指标，只评价了分割结果和动静脉分类结果。
+
+## 19-Dense Dilated Network with Probability Regularized Walk for Vessel Detection 
+这篇文章既有分割也有连接，可以借鉴一些写法。
+骨架修正的相关工作只列了三篇【57】【58】【59】
+
+**目标**：视网膜血管分割
+
+**方法** 
+CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游走的过程（不是使用随机游走算法）。
+1、先将二值图的连通域标号，最大的连通域记为i1。分别计算其他连通域与i1距离<L的点A、B。记AB中点M，以M为中心的方行区域为连接断裂的ROI（fracture region）。
+2、确定方向。以小连通域的点集合拟合二次曲线，与i1的交点为C，
+3、以ROI内的小连通域的点为初始种子点，计算当前种子点的八邻域的概率值（与C距离的反比、当前位置分割概率值 二者加权求和（权值为0.2和0.8效果最好）），取最大概率值的邻域像素点为next step。
+4、直到8邻域内的点的概率值都很小，终止。
+
+**指标**：
+1、选择距离阈值L：几个分割指标 Sensitivity (Sen) and Accuracy (Acc)、time consumption (Time) 
+2、连接的评价指标：连接后的 1-precision（越小越好）。选择超参α也是通过这个指标。
+3、ablation study中和CRW（conventional walk (CRW)）连接方法做比较。
+  
+**表达**：
+连通性：connectivity
+血管碎片：fracture of the vessels
+新生血管疾病：neovascular diseases
