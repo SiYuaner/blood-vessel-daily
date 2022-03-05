@@ -2,7 +2,8 @@
 overleaf https://www.overleaf.com/project/62208087dede1e19950d3295 （还没搬运完）
 
 papers文件夹是目前计划读的paper
-- [ ] - [x] 
+- [ ] 
+- [x] 
 
 ## 2022/03/06
 1、上午修改中期报告
