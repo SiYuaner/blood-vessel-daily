@@ -18,8 +18,7 @@
 通常在分类概率值低的地方容易出现分类错误，这些错误可以通过相邻的高置信度的影响来纠正。当形状、方向、位置相似时，有很高概率他们属于同一根血管，此时他们互相的影响应该很强烈。
 
 基于这种观察，设置了如下的概率传播规则。
-![avatar](./source/propagation.png)
-![](./source/propagation.png =100)
+<img src="./source/propagation.png" width = "600" alt="传播规则" align=center />
 
 其中A、L、T、D是四个参数，分别表示归一化的：  
 A：两血管相对方向  
@@ -41,12 +40,16 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 1、先将二值图的连通域标号，最大的连通域记为i1。分别计算其他连通域与i1距离<L的点A、B。记AB中点M，以M为中心的方行区域为连接断裂的ROI（fracture region）。  
 2、确定方向。以小连通域的点集合拟合二次曲线，与i1的交点为C，  
 3、以ROI内的小连通域的点为初始种子点，计算当前种子点的八邻域的概率值（与C距离的反比、当前位置分割概率值 二者加权求和（权值为0.2和0.8效果最好）），取最大概率值的邻域像素点为next step。  
-4、直到8邻域内的点的概率值都很小，终止。
+4、直到8邻域内的点的概率值都很小，终止。  
+<img src="./source/2-6.png" width = "600" alt="模拟随机游走算法" align=center />
 
 **指标**：
 1、选择距离阈值L：几个分割指标 Sensitivity (Sen) and Accuracy (Acc)、time consumption (Time)   
 2、连接的评价指标：连接后的 1-precision（越小越好）。选择超参α也是通过这个指标。  
 3、ablation study中和CRW（conventional walk (CRW)）连接方法做比较。
+<img src="./source/2-3.png" width = "800" alt="连接评价指标ERR+超参选择" align=center />
+<img src="./source/2-4.png" width = "800" alt="超参选择+ablation study" align=center />
+<img src="./source/2-5.png" width = "300" alt="结果比较" align=center />
 
 **表达**：
 连通性：connectivity；
