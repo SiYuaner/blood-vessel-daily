@@ -85,7 +85,11 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 1、先给AV-result1划分segments，把junction point挖出来以分开segments。例如有四个segments连到一起，则可以有C42个连接对。  
 2、然后每个连接对的特征送去分类器（图c右侧），逐像素判断是否连接，逐像素概率和的均值作为血管对的连接概率。  
 3、最后从细血管开始trace，遇到正连接对则置label一致。  
-  
+
+<img src="./source/4-1.png" width = "800" alt="方法流程" align=center />
+<img src="./source/4-1.png" width = "800" alt="网络" align=center />
+
+
 **如何修正的？**  连接对的 粗细、方向特征拿去分类。
 
 **数据**：  
