@@ -26,7 +26,8 @@ T：平均粗细相似度，越接近T越靠近1
 D：两个点的距离反比
 
 **评价指标**：
-    没有针对拓扑结构设计指标，只评价了 连接前后的 分割结果和动静脉分类结果。
+    没有针对拓扑结构设计指标，只比较了连接前后的 分割图、中心线（accuracy、F1）、中心线偏差>2px（accuracy、F1）
+
 
 ## 2、19-Dense Dilated Network with Probability Regularized Walk for Vessel Detection 
 这篇文章既有分割也有连接，可以借鉴一些写法。
@@ -61,4 +62,6 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 
 ## 3、13-TRANS An Automatic Graph-Based Approach for Artery/Vein Classification in Retinal Images 
 方法较简单，定义了多种错误类别。见阅读笔记1.  
-**拓扑指标**：提到accuracy-centerline pixels，应该是中心线上的正确率，没有细说。
+**评价指标**：  
+连接前后的 分割图、中心线、断裂ROI的分割图、断裂ROI的中心线，  
+还有连接后不同粗细的血管的四个指标比较。表格上看越粗的血管指标越好，没有详细分析。
