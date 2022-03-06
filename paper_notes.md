@@ -1,8 +1,7 @@
 ## 1、Joint Learning of Vessel Segmentation and Artery/Vein Classification with Post-processing 
 **任务**：视网膜血管分割 和 动静脉判别
 
-**方法**：
-
+**方法**：  
 上文已经做了分割，且计算了每个像素的动静脉分类概率值。
 
 实验发现分类结果中常出现两种错误，  
