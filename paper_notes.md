@@ -48,7 +48,7 @@ CNN分割得到概率图和二值图后，为了连接断裂，模拟随机游�
 2、连接的评价指标：连接后的 1-precision（越小越好）。选择超参α也是通过这个指标。  
 3、ablation study中和CRW（conventional walk (CRW)）连接方法做比较。
 
-[注]：敏感度（Sensitivity）：true positive rate =TP/ (TP+ FN)，描述识别出的所有正例占所有正例的比例
+[注]：敏感度（Sensitivity）：true positive rate =TP/ (TP+ FN)，描述识别出的所有正例占所有正例的比例  
 特异度（specificity）：true negative rate= TN / (FP + TN)，描述识别出的负例占所有负例的比例
 
 
