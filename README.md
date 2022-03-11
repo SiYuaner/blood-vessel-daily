@@ -1,7 +1,12 @@
 # blood-vessel-daily
 overleaf https://www.overleaf.com/project/62208087dede1e19950d3295 
 
-papers文件夹是目前计划读的paper
+## 2022/03/11  
+1、看别人怎么写 断裂连接的 难点  
+2、各类血管的分割精度  
+3、开始写论文  时间安排？  
+4、
+
 
 ## 2022/03/08
 1、给老师看中期报告  
