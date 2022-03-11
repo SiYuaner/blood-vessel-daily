@@ -8,7 +8,7 @@ overleaf https://www.overleaf.com/project/62208087dede1e19950d3295
 <img src="./source/其他同学的进度安排.png" width = "300" alt="借鉴其他的安排" align=center />  
 我的安排：  
 3.12-3.15 绪论  
-3.15-3.20 相关技术研究
+3.15-3.20 相关技术研究  
 3.20-3.25 技术方法  
 3.25-3.30 结果总结  
 
