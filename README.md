@@ -4,8 +4,9 @@ overleaf https://www.overleaf.com/project/62208087dede1e19950d3295
 ## 2022/03/11  
 1、看别人怎么写 断裂连接的 难点  
 2、各类血管的分割精度  
-3、开始写论文  时间安排？  
-4、
+3、开始写论文  时间安排？其他同学的安排：  
+<img src="./source/其他同学的进度安排.png" width = "600" alt="借鉴其他的安排" align=center />
+
 
 
 ## 2022/03/08
