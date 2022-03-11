@@ -5,8 +5,11 @@ overleaf https://www.overleaf.com/project/62208087dede1e19950d3295
 1、看别人怎么写 断裂连接的 难点  
 2、各类血管的分割精度  
 3、开始写论文  时间安排？其他同学的安排：  
-<img src="./source/其他同学的进度安排.png" width = "300" alt="借鉴其他的安排" align=center />
-
+<img src="./source/其他同学的进度安排.png" width = "300" alt="借鉴其他的安排" align=center />  
+3.12-3.15 绪论  
+3.15-3.20 相关技术研究
+3.20-3.25 技术方法  
+3.25-3.30 结果总结  
 
 
 ## 2022/03/08
