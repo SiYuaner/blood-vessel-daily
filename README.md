@@ -10,7 +10,6 @@ overleaf https://www.overleaf.com/project/62208087dede1e19950d3295
 
 ## 2022/03/11  
 看一集前端视频  
-报zoom  
 
 时间安排？**其他同学的安排**：
 <img src="./source/其他同学的进度安排.png" width = "300" alt="借鉴其他的安排" align=center />  
