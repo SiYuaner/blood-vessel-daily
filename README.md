@@ -2,7 +2,7 @@
 overleaf https://www.overleaf.com/project/62208087dede1e19950d3295 
 
 ## 2022/03/13
-<font color='red'>1、各类血管的分割精度 （bitahub在更新，暂时不能用） </font>  
+**1、---------各类血管的分割精度 （bitahub在更新，暂时不能用）---------**  
 2、整理文献，看别人怎么写 断裂连接的 难点   
 
 ## 2022/03/12
