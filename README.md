@@ -1,6 +1,9 @@
 # blood-vessel-daily
 overleaf https://www.overleaf.com/project/62208087dede1e19950d3295 
 
+## 2022/03/15
+开始写绪论和分割
+
 ## 2022/03/14
 1、继续整理  看别人怎么写 断裂连接的 难点
 
