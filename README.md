@@ -1,6 +1,10 @@
 # blood-vessel-daily
 <!-- overleaf https://www.overleaf.com/project/62208087dede1e19950d3295  -->
 
+
+## 3.27
+写完连接，把第二章对一遍
+
 ## 3.26
 录自我介绍视频，投完工行  
 写追踪和连接（一天写完！！！！）
