@@ -1,6 +1,8 @@
 # blood-vessel-daily
 <!-- overleaf https://www.overleaf.com/project/62208087dede1e19950d3295  -->
 
+## 3.28
+第二章顺一遍
 
 ## 3.27
 写完连接，把第二章对一遍
